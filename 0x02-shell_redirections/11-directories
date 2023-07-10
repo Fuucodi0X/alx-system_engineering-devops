@@ -1,3 +1,2 @@
 #!/bin/bash
-find ./* -type d -print | wc -l
-tree -ad | tail -1 | awk '{print $1}'
+find ./* -type d -print | wc -ltree -ad | tail -1 | awk '{print $1}'
