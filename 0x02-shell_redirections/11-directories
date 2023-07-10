@@ -1,3 +1,2 @@
 #!/bin/bash
-apt install tree
-tree -ad | tail -1 | awk '{print $1}'
+find ./* -type d -print | wc -l
